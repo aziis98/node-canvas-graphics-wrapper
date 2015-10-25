@@ -1,6 +1,6 @@
 {
   "name": "node-canvas-graphics-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that wraps a canvas element to a Java like Graphics object",
   "main": "graphics.js",
   "repository": {
@@ -8,7 +8,10 @@
     "url": "git+https://github.com/aziis98/node-canvas-graphics-wrapper.git"
   },
   "keywords": [
-    "graphics", "javagraphics", "canvas", "wrapper"
+    "graphics",
+    "javagraphics",
+    "canvas",
+    "wrapper"
   ],
   "author": "Antonio De Lucreziis",
   "license": "MIT",
