@@ -10,7 +10,9 @@ var Graphics = require('node-canvas-graphics-wrapper')
 
 // var canvas = $('#mycanvas')[0]                 // getting the canvas with jquery
 var canvas = document.getElementById('mycanvas')  // or with document.getElementById()
-var g = Graphics.createFromCanvas(canvas)
+
+var viewport = { width: 1920, height: 1080 }
+var g = Graphics.createFromCanvas(canvas, viewport)
 
 g.setColor('#FF0000')
 g.drawLine(100, 100, 200, 200)
