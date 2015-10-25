@@ -5,11 +5,11 @@ A package that wraps an html canvas to Java Graphics object.
 
 Here there is an example that draws a red line, an empty black rectangle and a green-filled circle:
 
-```
+```javascript
 var Graphics = require('node-canvas-graphics-wrapper')
 
-// var canvas = $('#mycanvas')[0]
-var canvas = document.getElementById('mycanvas')
+// var canvas = $('#mycanvas')[0]                 // getting the canvas with jquery
+var canvas = document.getElementById('mycanvas')  // or with document.getElementById()
 var g = Graphics.createFromCanvas(canvas)
 
 g.setColor('#FF0000')
